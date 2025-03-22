@@ -1,0 +1,168 @@
+/* Resetando margens e paddings para todos os elementos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Estilo do cabeçalho */
+.cabecalho {
+    font-size: 4vw; /* Tamanho relativo para responsividade */
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/pessoas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Estilo do corpo principal */
+.corpo {
+    margin-top: 5%;
+}
+
+/* Seção escola */
+.escola {
+    font-size: 5vw; /* Tamanho relativo */
+    font-weight: bold;
+    margin-top: 12%;
+    background-color: #68BB49;
+    padding: 3vw;
+    color: white;
+}
+
+/* Bloco de conteúdo */
+.blocos {
+    margin-bottom: 10%;
+}
+
+/* Estilo da chapa */
+.chapa {
+    font-size: 4vw;
+    margin-top: 10%;
+}
+
+/* Estilo do texto */
+.texto {
+    margin-top: 10%;
+    font-size: 3vw; /* Ajuste para telas menores */
+}
+
+/* Estilo para a parte destaque */
+.destaque {
+    font-size: 4vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* Estilo das linhas horizontais gerais */
+hr {
+    height: 8px;
+    background-color: #68BB49;
+    border: 0;
+}
+
+/* Estilo para os blocos de conteúdo dentro do corpo */
+.corpo div {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+/* Estilo da lista */
+ul {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* Estilo para cada item da lista */
+li {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    font-size: 3vw; /* Ajuste para responsividade */
+}
+
+/* Media query para telas pequenas (ex: dispositivos móveis) */
+@media (max-width: 768px) {
+    /* Ajusta a altura do cabeçalho */
+    .cabecalho {
+        font-size: 6vw;
+        height: 50vh;
+    }
+
+    .escola {
+        font-size: 6vw;
+        padding: 5vw;
+    }
+
+    .chapa {
+        font-size: 5vw;
+    }
+
+    .texto {
+        font-size: 4vw;
+    }
+
+    .destaque {
+        font-size: 5vw;
+    }
+
+    /* Ajuste de margem para lista */
+    ul {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    li {
+        font-size: 4vw;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    /* Ajuste das margens internas dos blocos */
+    .corpo div {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Media query para telas muito pequenas (ex: celulares verticais) */
+@media (max-width: 480px) {
+    .cabecalho {
+        font-size: 8vw;
+        height: 40vh;
+    }
+
+    .escola {
+        font-size: 8vw;
+        padding: 6vw;
+    }
+
+    .chapa {
+        font-size: 7vw;
+    }
+
+    .texto {
+        font-size: 5vw;
+    }
+
+    .destaque {
+        font-size: 6vw;
+    }
+
+    li {
+        font-size: 5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
