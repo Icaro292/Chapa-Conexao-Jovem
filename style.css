@@ -15,7 +15,7 @@ body {
 .cabecalho {
     font-size: 4vw; /* Tamanho relativo para responsividade */
     height: 60vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/pessoas.png);
+    background-image: url(img/cabeca.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -27,9 +27,6 @@ body {
 }
 
 /* Estilo do corpo principal */
-.corpo {
-    margin-top: 5%;
-}
 
 .redes {
     display: flex;
@@ -63,9 +60,8 @@ body {
 .escola {
     font-size: 3vw; /* Tamanho relativo */
     font-weight: bold;
-    margin-top: 5%;
+    margin-top: 2%;
     background-color: #68BB49;
-    padding: 3vw;
     color: white;
 }
 
@@ -133,11 +129,11 @@ li img{
     /* Ajusta a altura do cabeçalho */
     .cabecalho {
         font-size: 6vw;
-        height: 50vh;
+        height: 20vh;
     }
 
     .escola {
-        font-size: 6vw;
+        font-size: 5vw;
         padding: 5vw;
     }
 
@@ -180,11 +176,11 @@ li img{
 @media (max-width: 480px) {
     .cabecalho {
         font-size: 8vw;
-        height: 40vh;
+        height: 10vh;
     }
 
     .escola {
-        font-size: 8vw;
+        font-size: 5vw;
         padding: 6vw;
     }
 
