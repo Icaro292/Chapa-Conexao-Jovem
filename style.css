@@ -31,11 +31,38 @@ body {
     margin-top: 5%;
 }
 
+.redes {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+.redes i{
+    font-size: 5rem;
+    color: #0e2d03;
+}
+
+.redes a{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    text-decoration: none;
+}
+
+.destaqueimg{
+    height: 30rem;
+    background-color: #68BB49;
+}
+
+.imgP{
+    height: 20rem;
+}
+
 /* Seção escola */
 .escola {
-    font-size: 5vw; /* Tamanho relativo */
+    font-size: 3vw; /* Tamanho relativo */
     font-weight: bold;
-    margin-top: 12%;
+    margin-top: 5%;
     background-color: #68BB49;
     padding: 3vw;
     color: white;
@@ -52,9 +79,9 @@ body {
     margin-top: 10%;
 }
 
+
 /* Estilo do texto */
 .texto {
-    margin-top: 10%;
     font-size: 3vw; /* Ajuste para telas menores */
 }
 
@@ -68,7 +95,7 @@ body {
 /* Estilo das linhas horizontais gerais */
 hr {
     height: 8px;
-    background-color: #68BB49;
+    background-color: #0e2d03;
     border: 0;
 }
 
@@ -80,20 +107,28 @@ hr {
 
 /* Estilo da lista */
 ul {
+    display: flex;
     margin-top: 10%;
     margin-bottom: 10%;
+    justify-content: center;
+    list-style-type: none;
 }
 
 /* Estilo para cada item da lista */
 li {
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: left;
-    font-size: 3vw; /* Ajuste para responsividade */
+    margin-left: 6%;
+    margin-right: 6%;
 }
 
+li img{
+    height: 20rem;
+    text-decoration: none;
+}
+
+
+    
 /* Media query para telas pequenas (ex: dispositivos móveis) */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
     /* Ajusta a altura do cabeçalho */
     .cabecalho {
         font-size: 6vw;
@@ -111,22 +146,26 @@ li {
 
     .texto {
         font-size: 4vw;
+        text-align: justify;
+    }
+
+    .redes{
+        display: flex;
+        margin-bottom: 10%;
+        text-align: center;
     }
 
     .destaque {
         font-size: 5vw;
     }
 
-    /* Ajuste de margem para lista */
-    ul {
-        margin-top: 5%;
-        margin-bottom: 5%;
+    li {
+        margin-top: 15%;
+        
     }
 
-    li {
-        font-size: 4vw;
-        margin-left: 5%;
-        margin-right: 5%;
+    li img{
+        height: 20rem;
     }
 
     /* Ajuste das margens internas dos blocos */
@@ -161,7 +200,7 @@ li {
     }
 
     li {
-        font-size: 5vw;
+        font-size: 2vw;
         margin-left: 10%;
         margin-right: 10%;
     }
