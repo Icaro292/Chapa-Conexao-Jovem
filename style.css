@@ -50,6 +50,7 @@ body {
 }
 
 .destaqueimg{
+    margin-top: 5px;
     height: 30rem;
     background-color: #68BB49;
 }
